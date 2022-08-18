@@ -15,6 +15,7 @@
 		E21D3AD9289876800065E25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D3AD7289876800065E25B /* LaunchScreen.storyboard */; };
 		E21D3AE3289876F10065E25B /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AE2289876F10065E25B /* StoryboardInstantiable.swift */; };
 		E21D3AE52898771A0065E25B /* StoryboardInstantiableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AE42898771A0065E25B /* StoryboardInstantiableExample.swift */; };
+		E223279828AE551C000AF9C5 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223279728AE551C000AF9C5 /* StringExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E21D3ADA289876800065E25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21D3AE2289876F10065E25B /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		E21D3AE42898771A0065E25B /* StoryboardInstantiableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiableExample.swift; sourceTree = "<group>"; };
+		E223279728AE551C000AF9C5 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,8 @@
 		E21D3ACB2898767E0065E25B /* SwiftUtils */ = {
 			isa = PBXGroup;
 			children = (
+				E223279328AE546C000AF9C5 /* Example */,
 				E21D3AE0289876880065E25B /* Utils */,
-				E21D3ACC2898767E0065E25B /* AppDelegate.swift */,
-				E21D3ACE2898767E0065E25B /* SceneDelegate.swift */,
-				E21D3AD02898767E0065E25B /* ViewController.swift */,
-				E21D3AD22898767E0065E25B /* Main.storyboard */,
-				E21D3AD5289876800065E25B /* Assets.xcassets */,
-				E21D3AD7289876800065E25B /* LaunchScreen.storyboard */,
-				E21D3ADA289876800065E25B /* Info.plist */,
 			);
 			path = SwiftUtils;
 			sourceTree = "<group>";
@@ -75,6 +71,7 @@
 		E21D3AE0289876880065E25B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E223279528AE54AF000AF9C5 /* Extensions */,
 				E21D3AE1289876E40065E25B /* Storyboard */,
 			);
 			path = Utils;
@@ -87,6 +84,28 @@
 				E21D3AE42898771A0065E25B /* StoryboardInstantiableExample.swift */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E223279328AE546C000AF9C5 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				E21D3ACC2898767E0065E25B /* AppDelegate.swift */,
+				E21D3ACE2898767E0065E25B /* SceneDelegate.swift */,
+				E21D3AD02898767E0065E25B /* ViewController.swift */,
+				E21D3AD22898767E0065E25B /* Main.storyboard */,
+				E21D3AD5289876800065E25B /* Assets.xcassets */,
+				E21D3AD7289876800065E25B /* LaunchScreen.storyboard */,
+				E21D3ADA289876800065E25B /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		E223279528AE54AF000AF9C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E223279728AE551C000AF9C5 /* StringExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +183,7 @@
 				E21D3ACD2898767E0065E25B /* AppDelegate.swift in Sources */,
 				E21D3AE52898771A0065E25B /* StoryboardInstantiableExample.swift in Sources */,
 				E21D3AE3289876F10065E25B /* StoryboardInstantiable.swift in Sources */,
+				E223279828AE551C000AF9C5 /* StringExt.swift in Sources */,
 				E21D3ACF2898767E0065E25B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DD7RT45876;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUtils/Info.plist;
+				INFOPLIST_FILE = SwiftUtils/Example/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -342,7 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DD7RT45876;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SwiftUtils/Info.plist;
+				INFOPLIST_FILE = SwiftUtils/Example/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
