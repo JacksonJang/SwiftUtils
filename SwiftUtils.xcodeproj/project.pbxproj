@@ -15,6 +15,8 @@
 		E21D3AD9289876800065E25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21D3AD7289876800065E25B /* LaunchScreen.storyboard */; };
 		E21D3AE3289876F10065E25B /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AE2289876F10065E25B /* StoryboardInstantiable.swift */; };
 		E21D3AE52898771A0065E25B /* StoryboardInstantiableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D3AE42898771A0065E25B /* StoryboardInstantiableExample.swift */; };
+		E222C89028B0C9120030E909 /* Copying.swift in Sources */ = {isa = PBXBuildFile; fileRef = E222C88F28B0C9120030E909 /* Copying.swift */; };
+		E222C89228B0C91D0030E909 /* CopyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E222C89128B0C91D0030E909 /* CopyExample.swift */; };
 		E223279828AE551C000AF9C5 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223279728AE551C000AF9C5 /* StringExt.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		E21D3ADA289876800065E25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21D3AE2289876F10065E25B /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		E21D3AE42898771A0065E25B /* StoryboardInstantiableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiableExample.swift; sourceTree = "<group>"; };
+		E222C88F28B0C9120030E909 /* Copying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Copying.swift; sourceTree = "<group>"; };
+		E222C89128B0C91D0030E909 /* CopyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyExample.swift; sourceTree = "<group>"; };
 		E223279728AE551C000AF9C5 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,8 +75,9 @@
 		E21D3AE0289876880065E25B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				E223279528AE54AF000AF9C5 /* Extensions */,
+				E222C88E28B0C9000030E909 /* Copy */,
 				E21D3AE1289876E40065E25B /* Storyboard */,
+				E223279528AE54AF000AF9C5 /* Extensions */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -84,6 +89,15 @@
 				E21D3AE42898771A0065E25B /* StoryboardInstantiableExample.swift */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E222C88E28B0C9000030E909 /* Copy */ = {
+			isa = PBXGroup;
+			children = (
+				E222C88F28B0C9120030E909 /* Copying.swift */,
+				E222C89128B0C91D0030E909 /* CopyExample.swift */,
+			);
+			path = Copy;
 			sourceTree = "<group>";
 		};
 		E223279328AE546C000AF9C5 /* Example */ = {
@@ -182,7 +196,9 @@
 				E21D3AD12898767E0065E25B /* ViewController.swift in Sources */,
 				E21D3ACD2898767E0065E25B /* AppDelegate.swift in Sources */,
 				E21D3AE52898771A0065E25B /* StoryboardInstantiableExample.swift in Sources */,
+				E222C89228B0C91D0030E909 /* CopyExample.swift in Sources */,
 				E21D3AE3289876F10065E25B /* StoryboardInstantiable.swift in Sources */,
+				E222C89028B0C9120030E909 /* Copying.swift in Sources */,
 				E223279828AE551C000AF9C5 /* StringExt.swift in Sources */,
 				E21D3ACF2898767E0065E25B /* SceneDelegate.swift in Sources */,
 			);
